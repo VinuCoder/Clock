@@ -1,18 +1,21 @@
 body{
-background: url("background.jpg.jpg")  center ;  
-background-size: 100%;  
-background-blend-mode: darken;
-
+    background: url("background.jpg.jpg")  center ; 
+    background-repeat: no-repeat; 
+    /* background-size: 100%;   */
+    background-blend-mode: darken;
+    /* opacity: .8; */
 }
 #clockcontainer{
     position: relative;
+    top: 10vh;
     border: 5px solid black;
+    border-radius: 50vh;
     margin: auto;
     width: 40vw;
     height: 40vw;
     background: url("clock.png") no-repeat ;
     background-size: 100%;
-    opacity: .8;
+    /* opacity: .8; */
 }
 
 #hour, #minute, #second{
